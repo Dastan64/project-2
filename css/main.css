@@ -1,8 +1,6 @@
 @font-face {
-  font-family: 'Scriptina';
-  font-style: normal;
-  font-weight: 400;
-  src: local("Scriptina"), local("Scriptina-Regular"), url("http://allfont.net/cache/fonts/scriptina_416f2acacf0634cb03eff9ae4f08cd96.woff") format("woff"), url("http://allfont.net/cache/fonts/scriptina_416f2acacf0634cb03eff9ae4f08cd96.ttf") format("truetype");
+  font-family: "Scriptina", serif;
+  src: url("../fonts/Scriptina.ttf"), format("truetype");
 }
 * {
   margin: 0;
@@ -34,9 +32,9 @@ li {
 }
 .header__logo {
   padding-left: 100px;
-  font-family: "Scriptina", sans-serif;
   font-size: 40px;
   color: #a3045c;
+  font-family: "Scriptina", serif;
 }
 .header__container {
   width: 60%;
@@ -162,9 +160,9 @@ li {
 .header__caption {
   margin-top: 160px;
   text-align: center;
-  font-family: "Scriptina", serif;
   font-size: 80px;
   color: #a3045c;
+  font-family: "Scriptina", serif;
 }
 .header__btn {
   display: block;
@@ -219,8 +217,8 @@ li {
 }
 .showreel .box-1 h2 {
   margin-bottom: 30px;
-  font-size: 50px;
   font-family: "Scriptina", serif;
+  font-size: 50px;
 }
 .showreel .box-1 p {
   width: 70%;
@@ -247,8 +245,8 @@ li {
 }
 .showreel .box-5 h2 {
   margin-bottom: 30px;
-  font-size: 50px;
   font-family: "Scriptina", serif;
+  font-size: 50px;
 }
 .showreel .box-5 p {
   width: 70%;
@@ -296,8 +294,8 @@ li {
   padding: 50px 0 50px 0;
 }
 .footer__logo {
-  font-family: "Scriptina", serif;
   font-size: 2rem;
+  font-family: "Scriptina", serif;
 }
 .footer__links {
   text-transform: uppercase;

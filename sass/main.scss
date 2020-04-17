@@ -1,4 +1,8 @@
 $color1: #a3045c;
+@font-face {
+    font-family: "Scriptina", serif;
+    src: url('../fonts/Scriptina.ttf') format('truetype');
+}
 * {
     margin: 0;
     padding: 0;
@@ -18,10 +22,10 @@ li {
         padding-top: 50px;
     }
     &__logo {
-        font-family: 'Scriptina', arial;
         padding-left: 100px;
         font-size: 40px;
         color: $color1;
+        font-family: "Scriptina", serif;
     }
     &__container {
         width: 60%;
@@ -117,8 +121,8 @@ li {
     &__caption {
         margin-top: 160px;
         text-align: center;
-        font-family: 'Scriptina', arial;
         font-size: 80px;
+        font-family: "Scriptina", serif;
         color: $color1;
     }
     &__btn {
@@ -164,7 +168,7 @@ li {
         h2 {
             margin-bottom: 30px;
             font-size: 50px;
-            font-family: 'Scriptina', arial;
+            font-family: "Scriptina", serif;
         }
         p {
             width: 70%;
@@ -184,8 +188,8 @@ li {
         }
         h2 {
             margin-bottom: 30px;
+            font-family: "Scriptina", serif;
             font-size: 50px;
-            font-family: 'Scriptina', arial;
         }
         p {
             width: 70%;
@@ -199,8 +203,8 @@ li {
         }
         h2 {
             margin-bottom: 30px;
+            font-family: "Scriptina", serif;
             font-size: 50px;
-            font-family: 'Scriptina', arial;
         }
         p {
             width: 70%;
@@ -244,8 +248,8 @@ li {
         padding: 50px 0 50px 0;
     }
     &__logo {
-        font-family: 'Scriptina', arial;
         font-size: 2rem;
+        font-family: "Scriptina", serif;
     }
     &__links {
         text-transform: uppercase;

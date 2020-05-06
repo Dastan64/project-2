@@ -55,7 +55,7 @@
         <a href="#" class="header__btn">Contact us</a>
         <div class="header__mouse-icon">
             <p>Scroll down</p>
-            <a id='down' href="#showreel"><img src="./images/mouse.png" alt=""></a>
+            <a id='down' href='#'><img src="./images/mouse.png" alt=""></a>
         </div>
     </header>
     <section class="showreel" id='showreel'>
@@ -171,14 +171,17 @@
 </script>
 <script>
     let anchor = document.getElementById('down');
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            const blockId = anchor.getAttribute('href');
-            document.querySelector('' + blockId).scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            })
-        }); 
+    anchor.addEventListener('click', () => {
+        scrollDown(document.getElementById('showreel'))}
+        );
+    
+    function scrollDown(element) {
+      window.scroll({
+        left: 0,
+        top: element.offsetTop,
+        behavior: 'smooth'
+      })
+    }
 </script>
 </body>
 </html>
